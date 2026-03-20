@@ -89,6 +89,15 @@ button:active {
     opacity: 0.8;
 }
 
+label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
 .result-box {
     width: 75%;
     height: 50px;
@@ -155,7 +164,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 20px auto;
+
         /* centraliza e dá espaço */
     }
 
@@ -165,6 +174,14 @@ p {
         font-weight: 700;
         margin: 0;
         text-align: center;
+    }
+
+    button {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px auto;
     }
 
 }
