@@ -88,19 +88,83 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
- /* .result-box{
-    width: 80px;
-    height: 50px;
-    background-color: #fff;
-    opacity: 0.7;
-    border: 2px solid red;
- } */
 
-p{
+.result-box {
+    width: 75%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+p {
     color: #fff;
-    font-size: 30px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 700;
+    font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    img {
+        width: 300px;
+        height: auto;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .input-entre {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+
+    .input-E {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 24px;
+        margin: auto;
+    }
+
+    .result-box {
+        width: 75%;
+        min-height: 50px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        /* centraliza e dá espaço */
+    }
+
+    p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+    }
+
 }
